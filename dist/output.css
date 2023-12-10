@@ -1082,6 +1082,16 @@ input[type="range"]::-ms-fill-lower {
   padding-bottom: 47px;
 }
 
+.tw-px-80px {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.tw-px-100px {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 .tw-text-center {
   text-align: center;
 }
@@ -1236,5 +1246,10 @@ input[type="range"]::-ms-fill-lower {
   .lg\:tw-px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:tw-px-100px {
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
