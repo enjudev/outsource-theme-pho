@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: "Montserrat", sans-serif;
+@font-face {
+  font-family: "Lost Type 2023 Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Lost Type 2023 Regular"), url("../assets/fonts/losttype2023-regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Birthstone";
+  src: local("Birthstone"), url(../assets/fonts/Birthstone-Regular.ttf) format("truetype");
 }

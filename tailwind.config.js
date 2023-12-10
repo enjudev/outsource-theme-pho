@@ -9,6 +9,11 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'lostType': ["'Lost Type 2023 Regular'"],
+        'Birthstone': ['Birthstone', 'cursive'],
+        'Montserrat': ['Montserrat', 'sans-serif'],
+      },
       colors: {
         'blue1': '#3393E9 ',
         'blue2': '#20ACDF',
