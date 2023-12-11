@@ -940,6 +940,18 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 42px;
 }
 
+.tw-ml-18px {
+  margin-left: 18px;
+}
+
+.tw-ml-28px {
+  margin-left: 28px;
+}
+
+.tw-mt-46px {
+  margin-top: 46px;
+}
+
 .tw-block {
   display: block;
 }
