@@ -12,3 +12,11 @@
   font-family: "Birthstone";
   src: local("Birthstone"), url(../assets/fonts/Birthstone-Regular.ttf) format("truetype");
 }
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  display: none;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  display: none;
+}
