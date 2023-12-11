@@ -936,6 +936,18 @@ input[type="range"]::-ms-fill-lower {
   margin-top: 42px;
 }
 
+.tw-mb-40px {
+  margin-bottom: 40px;
+}
+
+.tw-mb-60px {
+  margin-bottom: 60px;
+}
+
+.tw-mb-50px {
+  margin-bottom: 50px;
+}
+
 .tw-block {
   display: block;
 }
@@ -1012,6 +1024,10 @@ input[type="range"]::-ms-fill-lower {
   border-radius: 0.375rem;
 }
 
+.tw-rounded-full {
+  border-radius: 9999px;
+}
+
 .tw-bg-black1 {
   --tw-bg-opacity: 1;
   background-color: rgb(29 30 25 / var(--tw-bg-opacity));
@@ -1071,6 +1087,16 @@ input[type="range"]::-ms-fill-lower {
 .tw-py-47px {
   padding-top: 47px;
   padding-bottom: 47px;
+}
+
+.tw-px-12px {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.tw-py-8px {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .tw-text-center {
@@ -1200,6 +1226,10 @@ input[type="range"]::-ms-fill-lower {
     grid-column: span 7 / span 7;
   }
 
+  .lg\:tw-col-span-6 {
+    grid-column: span 6 / span 6;
+  }
+
   .lg\:tw-block {
     display: block;
   }
@@ -1223,16 +1253,6 @@ input[type="range"]::-ms-fill-lower {
   .lg\:tw-px-0 {
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .lg\:tw-px-\[30\%\] {
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-
-  .lg\:tw-px-\[10\%\] {
-    padding-left: 10%;
-    padding-right: 10%;
   }
 
   .lg\:tw-px-\[15\%\] {
